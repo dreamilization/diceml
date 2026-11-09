@@ -95,3 +95,14 @@ iOSInjectionProject/
 /AppStoreMarketing/Final/
 /AppStoreMarketing/Source/
 /AppStoreMarketing/Upload/
+
+# Temporary task files and editor backups
+/tmp/
+/.tmp/
+/temp/
+/.temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

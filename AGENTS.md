@@ -4,14 +4,14 @@
 
 - Use `main` for completed versions. Develop each version on exactly one branch, named like `1.0-feat` (Git branch names cannot contain spaces).
 - Keep all work for a version on its existing branch. Merge into `main` once that version is complete and verified.
-- Use commit messages in the form `<version> <short description>`.
+- Use commit messages in the form `<type>: <short description>`, with types such as `chore`, `feat`, `fix`, `doc`, `refactor`, and `test`. Do not prefix commit messages with a version; version numbers belong in branch names and release metadata.
 - Commit only as `dreamilization <40374124+dreamilization@users.noreply.github.com>`. Do not add assistant attribution or coauthor trailers.
 - The repository remote is `https://github.com/dreamilization/diceml.git`.
 
 ## Cleanup
 
-- Clean up temporary scripts, scratch files, build outputs, and generated review artifacts created during a task once they are no longer needed.
-- Retain only files intended to be part of the project. Do not remove pre-existing user files as part of cleanup.
+- Never stage, commit, or track temporary scripts, scratch files, build outputs, or generated review artifacts. Keep disposable task files in the system temporary directory.
+- Remove temporary files you created once they are no longer needed, including files outside the repository. Preserve pre-existing user files and lasting project files.
 
 ## Product and design
 
