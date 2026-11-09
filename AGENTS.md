@@ -8,6 +8,11 @@
 - Commit only as `dreamilization <40374124+dreamilization@users.noreply.github.com>`. Do not add assistant attribution or coauthor trailers.
 - The repository remote is `https://github.com/dreamilization/diceml.git`.
 
+## Cleanup
+
+- Clean up temporary scripts, scratch files, build outputs, and generated review artifacts created during a task once they are no longer needed.
+- Retain only files intended to be part of the project. Do not remove pre-existing user files as part of cleanup.
+
 ## Product and design
 
 - Build a native iPhone and iPad app that predicts the next ordered result for a configurable number of six-sided dice; default to three dice.
